@@ -1,0 +1,6 @@
+framework module Pods_VolumeStrength {
+  umbrella header "Pods-VolumeStrength-umbrella.h"
+
+  export *
+  module * { export * }
+}

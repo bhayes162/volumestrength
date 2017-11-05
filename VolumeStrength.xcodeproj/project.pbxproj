@@ -7,23 +7,27 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1B5D21201FAFC0DE00050A43 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 1B5D211F1FAFC0DE00050A43 /* GoogleService-Info.plist */; };
 		1BA851771FAFA00900BA5E9A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BA851761FAFA00900BA5E9A /* AppDelegate.swift */; };
-		1BA851791FAFA00900BA5E9A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BA851781FAFA00900BA5E9A /* ViewController.swift */; };
 		1BA8517C1FAFA00900BA5E9A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1BA8517A1FAFA00900BA5E9A /* Main.storyboard */; };
 		1BA8517F1FAFA00900BA5E9A /* VolumeStrength.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 1BA8517D1FAFA00900BA5E9A /* VolumeStrength.xcdatamodeld */; };
 		1BA851811FAFA00900BA5E9A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1BA851801FAFA00900BA5E9A /* Assets.xcassets */; };
 		1BA851841FAFA00900BA5E9A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1BA851821FAFA00900BA5E9A /* LaunchScreen.storyboard */; };
+		749967A40E05660963DEC1EC /* Pods_VolumeStrength.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F846BE5726A6F28583446CB8 /* Pods_VolumeStrength.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		1B5D211F1FAFC0DE00050A43 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		1BA851731FAFA00900BA5E9A /* VolumeStrength.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VolumeStrength.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1BA851761FAFA00900BA5E9A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		1BA851781FAFA00900BA5E9A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		1BA8517B1FAFA00900BA5E9A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		1BA8517E1FAFA00900BA5E9A /* VolumeStrength.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = VolumeStrength.xcdatamodel; sourceTree = "<group>"; };
 		1BA851801FAFA00900BA5E9A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1BA851831FAFA00900BA5E9A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		1BA851851FAFA00900BA5E9A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		30AD81FE1E460C74D609ABBC /* Pods-VolumeStrength.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VolumeStrength.debug.xcconfig"; path = "Pods/Target Support Files/Pods-VolumeStrength/Pods-VolumeStrength.debug.xcconfig"; sourceTree = "<group>"; };
+		7C616EA26B269D3F4C579B2F /* Pods-VolumeStrength.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VolumeStrength.release.xcconfig"; path = "Pods/Target Support Files/Pods-VolumeStrength/Pods-VolumeStrength.release.xcconfig"; sourceTree = "<group>"; };
+		F846BE5726A6F28583446CB8 /* Pods_VolumeStrength.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_VolumeStrength.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,6 +35,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				749967A40E05660963DEC1EC /* Pods_VolumeStrength.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -42,6 +47,8 @@
 			children = (
 				1BA851751FAFA00900BA5E9A /* VolumeStrength */,
 				1BA851741FAFA00900BA5E9A /* Products */,
+				9F3FAFBE2DB7B9133C4391A6 /* Pods */,
+				4A9168BEDFA115E00977BB8C /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -57,14 +64,31 @@
 			isa = PBXGroup;
 			children = (
 				1BA851761FAFA00900BA5E9A /* AppDelegate.swift */,
-				1BA851781FAFA00900BA5E9A /* ViewController.swift */,
 				1BA8517A1FAFA00900BA5E9A /* Main.storyboard */,
 				1BA851801FAFA00900BA5E9A /* Assets.xcassets */,
 				1BA851821FAFA00900BA5E9A /* LaunchScreen.storyboard */,
 				1BA851851FAFA00900BA5E9A /* Info.plist */,
+				1B5D211F1FAFC0DE00050A43 /* GoogleService-Info.plist */,
 				1BA8517D1FAFA00900BA5E9A /* VolumeStrength.xcdatamodeld */,
 			);
 			path = VolumeStrength;
+			sourceTree = "<group>";
+		};
+		4A9168BEDFA115E00977BB8C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F846BE5726A6F28583446CB8 /* Pods_VolumeStrength.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		9F3FAFBE2DB7B9133C4391A6 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				30AD81FE1E460C74D609ABBC /* Pods-VolumeStrength.debug.xcconfig */,
+				7C616EA26B269D3F4C579B2F /* Pods-VolumeStrength.release.xcconfig */,
+			);
+			name = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -74,9 +98,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 1BA851881FAFA00900BA5E9A /* Build configuration list for PBXNativeTarget "VolumeStrength" */;
 			buildPhases = (
+				D2AA697CC004185011B7D344 /* [CP] Check Pods Manifest.lock */,
 				1BA8516F1FAFA00900BA5E9A /* Sources */,
 				1BA851701FAFA00900BA5E9A /* Frameworks */,
 				1BA851711FAFA00900BA5E9A /* Resources */,
+				E3C9BBE9C5C9DF944DD7B57E /* [CP] Embed Pods Frameworks */,
+				0A9B79AE186C4ECB180831B5 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -127,6 +154,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				1BA851841FAFA00900BA5E9A /* LaunchScreen.storyboard in Resources */,
+				1B5D21201FAFC0DE00050A43 /* GoogleService-Info.plist in Resources */,
 				1BA851811FAFA00900BA5E9A /* Assets.xcassets in Resources */,
 				1BA8517C1FAFA00900BA5E9A /* Main.storyboard in Resources */,
 			);
@@ -134,13 +162,72 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		0A9B79AE186C4ECB180831B5 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-VolumeStrength/Pods-VolumeStrength-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D2AA697CC004185011B7D344 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-VolumeStrength-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E3C9BBE9C5C9DF944DD7B57E /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-VolumeStrength/Pods-VolumeStrength-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/GTMSessionFetcher/GTMSessionFetcher.framework",
+				"${BUILT_PRODUCTS_DIR}/GoogleToolboxForMac/GoogleToolboxForMac.framework",
+				"${BUILT_PRODUCTS_DIR}/leveldb-library/leveldb.framework",
+				"${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GTMSessionFetcher.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleToolboxForMac.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/leveldb.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/nanopb.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-VolumeStrength/Pods-VolumeStrength-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		1BA8516F1FAFA00900BA5E9A /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				1BA8517F1FAFA00900BA5E9A /* VolumeStrength.xcdatamodeld in Sources */,
-				1BA851791FAFA00900BA5E9A /* ViewController.swift in Sources */,
 				1BA851771FAFA00900BA5E9A /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -276,6 +363,7 @@
 		};
 		1BA851891FAFA00900BA5E9A /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 30AD81FE1E460C74D609ABBC /* Pods-VolumeStrength.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -291,6 +379,7 @@
 		};
 		1BA8518A1FAFA00900BA5E9A /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7C616EA26B269D3F4C579B2F /* Pods-VolumeStrength.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
